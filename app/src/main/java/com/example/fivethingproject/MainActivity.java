@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(curry_act);
     }
 
+    public void More(View v) {
+        Intent More_act = new Intent(this, More.class);
+        startActivity(More_act);
+    }
+
 
 
 }

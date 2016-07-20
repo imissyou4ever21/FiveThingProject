@@ -7,28 +7,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fivethingproject.curry"
+    tools:context="com.example.fivethingproject.paul"
     android:focusable="false">
 
     <ImageView
-    android:src="@drawable/curry"
-    android:id="@+id/curry"
-    android:layout_width="match_parent"
-    android:layout_height="250dp"
-    android:scaleType="fitStart"
-    android:layout_alignParentTop="true" />
+        android:src="@drawable/paul"
+        android:id="@+id/paul"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/namecurry"
+        android:id="@+id/namepaul"
         android:gravity="center"
         android:padding="8dp"
-        android:text="Name: Stephen Curry"
+        android:text="Name: Chris paul"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:layout_below="@+id/curry"
+        android:layout_below="@+id/paul"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
@@ -39,16 +39,16 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Team: Golden State Warriors"
+        android:text="Team: Los Angeles Clippers"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/teamcurry"
+        android:id="@+id/teampaul"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/namecurry" />
+        android:layout_below="@+id/namepaul" />
 
     <TextView
         android:layout_width="match_parent"
@@ -59,49 +59,49 @@
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/positioncurry"
+        android:id="@+id/positionpaul"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/teamcurry" />
+        android:layout_below="@+id/teampaul" />
 
-    <TextView
+       <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Number: 30"
+        android:text="Number: 3"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/numbercurry"
+        android:id="@+id/numberpaul"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/positioncurry" />
+        android:layout_below="@+id/positionpaul" />
 
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
-        android:id="@+id/currynext"
-        android:onClick="currynext"
+        android:id="@+id/paulnext"
+        android:onClick="paulnext"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/numbercurry"
-        android:layout_alignEnd="@+id/numbercurry" />
+        android:layout_alignRight="@+id/paul"
+        android:layout_alignEnd="@+id/paul" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="back"
-        android:id="@+id/curryback"
-        android:onClick="curryback"
+        android:id="@+id/paulback"
+        android:onClick="paulback"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-
 </RelativeLayout>
+

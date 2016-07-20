@@ -7,28 +7,30 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fivethingproject.curry"
+    tools:context="com.example.fivethingproject.lavine"
     android:focusable="false">
 
     <ImageView
-    android:src="@drawable/curry"
-    android:id="@+id/curry"
-    android:layout_width="match_parent"
-    android:layout_height="250dp"
-    android:scaleType="fitStart"
-    android:layout_alignParentTop="true" />
+        android:src="@drawable/lavine"
+        android:id="@+id/lavine"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/namelavine"
+        android:layout_alignEnd="@+id/namelavine" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/namecurry"
+        android:id="@+id/namelavine"
         android:gravity="center"
         android:padding="8dp"
-        android:text="Name: Stephen Curry"
+        android:text="Name: Zach Lavine"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:layout_below="@+id/curry"
+        android:layout_below="@+id/lavine"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
@@ -39,69 +41,70 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Team: Golden State Warriors"
+        android:text="Team: Minnesota Timberwolves"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/teamcurry"
+        android:id="@+id/teamlavine"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/namecurry" />
+        android:layout_below="@+id/namelavine" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Position: Point guard"
+        android:text="Position: Shooting guard"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/positioncurry"
+        android:id="@+id/positionlavine"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/teamcurry" />
+        android:layout_below="@+id/teamlavine" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Number: 30"
+        android:text="Number: 8"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/numbercurry"
+        android:id="@+id/numberlavine"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/positioncurry" />
+        android:layout_below="@+id/positionlavine" />
+
 
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="next"
-        android:id="@+id/currynext"
-        android:onClick="currynext"
+        android:text="Quit"
+        android:id="@+id/lavinenext"
+        android:onClick="lavinenext"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/numbercurry"
-        android:layout_alignEnd="@+id/numbercurry" />
+        android:layout_alignRight="@+id/lavine"
+        android:layout_alignEnd="@+id/lavine" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="back"
-        android:id="@+id/curryback"
-        android:onClick="curryback"
+        android:id="@+id/lavineback"
+        android:onClick="lavineback"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-
 </RelativeLayout>
+

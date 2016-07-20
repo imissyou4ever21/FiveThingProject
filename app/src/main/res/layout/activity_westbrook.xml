@@ -7,28 +7,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.fivethingproject.curry"
+    tools:context="com.example.fivethingproject.westbrook"
     android:focusable="false">
 
     <ImageView
-    android:src="@drawable/curry"
-    android:id="@+id/curry"
-    android:layout_width="match_parent"
-    android:layout_height="250dp"
-    android:scaleType="fitStart"
-    android:layout_alignParentTop="true" />
+        android:src="@drawable/westbrook"
+        android:id="@+id/westbrook"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/namecurry"
+        android:id="@+id/namewestbrook"
         android:gravity="center"
         android:padding="8dp"
-        android:text="Name: Stephen Curry"
+        android:text="Name: Russell Westbrook"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:layout_below="@+id/curry"
+        android:layout_below="@+id/westbrook"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
@@ -39,16 +39,16 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Team: Golden State Warriors"
+        android:text="Team: Oklahoma City Thunder"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/teamcurry"
+        android:id="@+id/teamwestbrook"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/namecurry" />
+        android:layout_below="@+id/namewestbrook" />
 
     <TextView
         android:layout_width="match_parent"
@@ -59,49 +59,48 @@
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/positioncurry"
+        android:id="@+id/positionwestbrook"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/teamcurry" />
+        android:layout_below="@+id/teamwestbrook" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="8dp"
-        android:text="Number: 30"
+        android:text="Number: 0"
         android:fontFamily="sans-serif-medium"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:id="@+id/numbercurry"
+        android:id="@+id/numberwestbrook"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/positioncurry" />
-
+        android:layout_below="@+id/positionwestbrook" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="next"
-        android:id="@+id/currynext"
-        android:onClick="currynext"
+        android:id="@+id/westbrooknext"
+        android:onClick="westbrooknext"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/numbercurry"
-        android:layout_alignEnd="@+id/numbercurry" />
+        android:layout_alignRight="@+id/westbrook"
+        android:layout_alignEnd="@+id/westbrook" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="back"
-        android:id="@+id/curryback"
-        android:onClick="curryback"
+        android:id="@+id/westbrookback"
+        android:onClick="westbrookback"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-
 </RelativeLayout>
+

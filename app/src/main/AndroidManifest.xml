@@ -15,7 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".curry"></activity>
+        <activity android:name=".curry" />
+        <activity android:name=".lebron" />
+        <activity android:name=".westbrook" />
+        <activity android:name=".paul" />
+        <activity android:name=".lavine" />
+        <activity android:name=".More"></activity>
     </application>
 
 </manifest>
