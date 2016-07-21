@@ -27,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(More_act);
     }
 
+    public void Quit(View v) {
+        Intent intent = new Intent();
+        intent.setAction("android.intent.action.MAIN");
+        intent.addCategory("android.intent.category.HOME");
+        startActivity(intent);
+    }
+
 
 
 }

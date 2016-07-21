@@ -1,6 +1,7 @@
 package com.example.fivethingproject;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,5 +24,12 @@ public class curry extends AppCompatActivity {
     public void curryback(View v) {
         Intent MainActivity_act = new Intent(this, MainActivity.class);
         startActivity(MainActivity_act);
+    }
+
+    public void currymore(View v) {
+        Intent currymore_act = new Intent(Intent.ACTION_VIEW);
+        String webcurry = "https://en.wikipedia.org/wiki/Stephen_Curry";
+        currymore_act.setData(Uri.parse(webcurry));
+        startActivity(currymore_act);
     }
 }
