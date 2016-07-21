@@ -24,8 +24,15 @@
         android:text="Start"
         android:id="@+id/Start"
         android:onClick="Start"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignBottom="@+id/nba"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/More" />
 
     <Button
         android:layout_width="wrap_content"
@@ -33,6 +40,12 @@
         android:text="More"
         android:id="@+id/More"
         android:onClick="More"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
         android:layout_alignBottom="@+id/nba"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -43,6 +56,12 @@
         android:text="Quit"
         android:id="@+id/Quit"
         android:onClick="Quit"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

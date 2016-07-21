@@ -22,109 +22,107 @@
             android:id="@+id/derazan"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/derazan"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/namederazan"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="DeMar DeRozan"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="#000000"
-            android:textSize="14dp"
-            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/derazan" />
+
+        <Button
+            android:id="@+id/namederazan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_marginTop="174dp"
-            android:onClick="namederazan"/>
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:onClick="namederazan"
+            android:padding="8dp"
+            android:text="DeMar DeRozan"
+            android:textColor="#000000"
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/cousins"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/cousins"
-            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cousins" />
 
         <Button
+            android:id="@+id/namecousins"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namecousins"
+            android:layout_alignBottom="@+id/namederazan"
+            android:layout_alignEnd="@+id/cousins"
+            android:layout_alignLeft="@+id/cousins"
+            android:layout_alignRight="@+id/cousins"
+            android:layout_alignStart="@+id/cousins"
+            android:layout_alignTop="@+id/namederazan"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namecousins"
             android:padding="8dp"
             android:text="DeMarcus Cousins"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="12dp"
-            android:onClick="namecousins"
-            android:layout_alignLeft="@+id/cousins"
-            android:layout_alignStart="@+id/cousins"
-            android:layout_alignRight="@+id/cousins"
-            android:layout_alignEnd="@+id/cousins"
-            android:layout_alignTop="@+id/namederazan"
-            android:layout_alignBottom="@+id/namederazan" />
-
-
+            android:textSize="12dp" />
 
 
         <ImageView
             android:id="@+id/duncan"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/duncan"
-            android:layout_below="@+id/derazan"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/derazan"
+            android:scaleType="fitCenter"
+            android:src="@drawable/duncan" />
 
         <Button
+            android:id="@+id/nameduncan"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/nameduncan"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="Tim Duncan"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="nameduncan"
             android:layout_alignBottom="@+id/george"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="175dp" />
+            android:layout_marginBottom="175dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:onClick="nameduncan"
+            android:padding="8dp"
+            android:text="Tim Duncan"
+            android:textColor="#000000"
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/durant"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/durant"
-            android:layout_alignTop="@+id/duncan"
             android:layout_alignLeft="@+id/namecousins"
-            android:layout_alignStart="@+id/namecousins" />
+            android:layout_alignStart="@+id/namecousins"
+            android:layout_alignTop="@+id/duncan"
+            android:scaleType="fitCenter"
+            android:src="@drawable/durant" />
 
         <Button
+            android:id="@+id/namedurant"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namedurant"
+            android:layout_alignLeft="@+id/durant"
+            android:layout_alignStart="@+id/durant"
+            android:layout_alignTop="@+id/nameduncan"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namedurant"
             android:padding="8dp"
             android:text="Kevin Durant"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namedurant"
-            android:layout_alignTop="@+id/nameduncan"
-            android:layout_alignLeft="@+id/durant"
-            android:layout_alignStart="@+id/durant" />
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/george"
@@ -137,96 +135,96 @@
             android:src="@drawable/george" />
 
         <Button
+            android:id="@+id/namegeorge"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namegeorge"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="Paul George"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namegeorge"
-            android:layout_below="@+id/namedurant"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="151dp" />
+            android:layout_below="@+id/namedurant"
+            android:layout_marginTop="151dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:onClick="namegeorge"
+            android:padding="8dp"
+            android:text="Paul George"
+            android:textColor="#000000"
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/griffin"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/griffin"
-            android:layout_alignTop="@+id/george"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignTop="@+id/george"
+            android:scaleType="fitCenter"
+            android:src="@drawable/griffin" />
 
         <Button
+            android:id="@+id/namegriffin"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namegriffin"
+            android:layout_alignLeft="@+id/griffin"
+            android:layout_alignStart="@+id/griffin"
+            android:layout_alignTop="@+id/namegeorge"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namegriffin"
             android:padding="8dp"
             android:text="Blake Griffin"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namegriffin"
-            android:layout_alignTop="@+id/namegeorge"
-            android:layout_alignLeft="@+id/griffin"
-            android:layout_alignStart="@+id/griffin" />
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/hardens"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/hardens"
-            android:layout_below="@+id/george"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/namehardens"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="James Harden"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namehardens"
-            android:layout_below="@+id/namegeorge"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="152dp" />
+            android:layout_below="@+id/george"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hardens" />
+
+        <Button
+            android:id="@+id/namehardens"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/namegeorge"
+            android:layout_marginTop="152dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:onClick="namehardens"
+            android:padding="8dp"
+            android:text="James Harden"
+            android:textColor="#000000"
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/irving"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/irving"
-            android:layout_alignTop="@+id/hardens"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignTop="@+id/hardens"
+            android:scaleType="fitCenter"
+            android:src="@drawable/irving" />
 
         <Button
+            android:id="@+id/nameirving"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/nameirving"
+            android:layout_alignLeft="@+id/irving"
+            android:layout_alignStart="@+id/irving"
+            android:layout_alignTop="@+id/namehardens"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="nameirving"
             android:padding="8dp"
             android:text="Kyrie Irving"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="nameirving"
-            android:layout_alignTop="@+id/namehardens"
-            android:layout_alignLeft="@+id/irving"
-            android:layout_alignStart="@+id/irving" />
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/kobe"
@@ -239,45 +237,45 @@
             android:src="@drawable/kobe" />
 
         <Button
+            android:id="@+id/namekobe"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namekobe"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/namehardens"
+            android:layout_marginTop="153dp"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namekobe"
             android:padding="8dp"
             android:text="Kobe Bryant"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namekobe"
-            android:layout_marginTop="153dp"
-            android:layout_below="@+id/namehardens"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/lowry"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/lowry"
-            android:layout_below="@+id/irving"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_below="@+id/irving"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lowry" />
 
         <Button
+            android:id="@+id/namelowry"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namelowry"
+            android:layout_alignLeft="@+id/lowry"
+            android:layout_alignStart="@+id/lowry"
+            android:layout_alignTop="@+id/namekobe"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namelowry"
             android:padding="8dp"
             android:text="Kyle Lowry"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namelowry"
-            android:layout_alignTop="@+id/namekobe"
-            android:layout_alignLeft="@+id/lowry"
-            android:layout_alignStart="@+id/lowry" />
+            android:textSize="14dp" />
 
 
         <ImageView
@@ -291,45 +289,45 @@
             android:src="@drawable/parker" />
 
         <Button
+            android:id="@+id/nameparker"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/nameparker"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/namekobe"
+            android:layout_marginTop="152dp"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="nameparker"
             android:padding="8dp"
             android:text="Tony Parker"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="nameparker"
-            android:layout_marginTop="152dp"
-            android:layout_below="@+id/namekobe"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/rose"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/rose"
-            android:layout_below="@+id/lowry"
             android:layout_alignLeft="@+id/lowry"
-            android:layout_alignStart="@+id/lowry" />
+            android:layout_alignStart="@+id/lowry"
+            android:layout_below="@+id/lowry"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rose" />
 
         <Button
+            android:id="@+id/namerose"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namerose"
+            android:layout_alignLeft="@+id/rose"
+            android:layout_alignStart="@+id/rose"
+            android:layout_alignTop="@+id/nameparker"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namerose"
             android:padding="8dp"
             android:text="Derrick Rose"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namerose"
-            android:layout_alignTop="@+id/nameparker"
-            android:layout_alignLeft="@+id/rose"
-            android:layout_alignStart="@+id/rose" />
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/thompson"
@@ -342,45 +340,45 @@
             android:src="@drawable/thompson" />
 
         <Button
+            android:id="@+id/namethompson"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namethompson"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nameparker"
+            android:layout_marginTop="152dp"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namethompson"
             android:padding="8dp"
             android:text="Klay Thompson"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namethompson"
-            android:layout_marginTop="152dp"
-            android:layout_below="@+id/nameparker"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:textSize="14dp" />
 
         <ImageView
             android:id="@+id/wade"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/wade"
-            android:layout_below="@+id/rose"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_below="@+id/rose"
+            android:scaleType="fitCenter"
+            android:src="@drawable/wade" />
 
         <Button
+            android:id="@+id/namewade"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/namewade"
+            android:layout_alignLeft="@+id/wade"
+            android:layout_alignStart="@+id/wade"
+            android:layout_alignTop="@+id/namethompson"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:onClick="namewade"
             android:padding="8dp"
             android:text="Dwyane Wade"
-            android:fontFamily="sans-serif-medium"
             android:textColor="#000000"
-            android:textSize="14dp"
-            android:onClick="namewade"
-            android:layout_alignTop="@+id/namethompson"
-            android:layout_alignLeft="@+id/wade"
-            android:layout_alignStart="@+id/wade" />
+            android:textSize="14dp" />
 
 
     </RelativeLayout>
